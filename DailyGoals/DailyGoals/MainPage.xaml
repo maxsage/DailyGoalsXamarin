@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DailyGoals"
+             x:Class="DailyGoals.MainPage">
+
+    <StackLayout>
+        <StackLayout>
+            <Button Text="Add" Clicked="OnAdd" />
+            <Button Text="Delete" Clicked="OnDelete" />
+            <Button Text="Update" Clicked="OnUpdate" />
+        </StackLayout>
+        <ListView x:Name="goalEntriesListView" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell Text="{Binding Details}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

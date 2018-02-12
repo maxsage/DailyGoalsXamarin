@@ -1,0 +1,11 @@
+c:\Development\DailyGoals\DailyGoals\DailyGoals\bin\Debug\netstandard2.0\DailyGoals.deps.json
+c:\Development\DailyGoals\DailyGoals\DailyGoals\bin\Debug\netstandard2.0\DailyGoals.dll
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.csproj.CoreCompileInputs.cache
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.App.xaml.g.cs
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.MainPage.xaml.g.cs
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.AssemblyInfoInputs.cache
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.AssemblyInfo.cs
+c:\Development\DailyGoals\DailyGoals\DailyGoals\bin\Debug\netstandard2.0\DailyGoals.pdb
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.dll
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.pdb
+c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.csprojResolveAssemblyReference.cache
