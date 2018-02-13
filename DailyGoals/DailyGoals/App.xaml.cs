@@ -13,6 +13,7 @@ namespace DailyGoals
 		{
 			InitializeComponent();
 
+            // Declared as NavigationPage to get Title to show
 			MainPage = new DailyGoals.MainPage();
 		}
 
