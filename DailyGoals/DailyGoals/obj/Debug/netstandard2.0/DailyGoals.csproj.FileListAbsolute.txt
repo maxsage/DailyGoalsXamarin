@@ -8,4 +8,8 @@ c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGo
 c:\Development\DailyGoals\DailyGoals\DailyGoals\bin\Debug\netstandard2.0\DailyGoals.pdb
 c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.dll
 c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.pdb
-c:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.csprojResolveAssemblyReference.cache
+C:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.csprojResolveAssemblyReference.cache
+C:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.CategoryPage.xaml.g.cs
+C:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.Today.xaml.g.cs
+C:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.Tomorrow.xaml.g.cs
+C:\Development\DailyGoals\DailyGoals\DailyGoals\obj\Debug\netstandard2.0\DailyGoals.Yesterday.xaml.g.cs

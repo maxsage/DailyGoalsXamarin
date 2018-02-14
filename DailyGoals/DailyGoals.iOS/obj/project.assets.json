@@ -1042,24 +1042,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\csit011\\.nuget\\packages\\": {},
+    "C:\\Users\\maxsa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals.iOS\\DailyGoals.iOS.csproj",
+      "projectUniqueName": "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals.iOS\\DailyGoals.iOS.csproj",
       "projectName": "DailyGoals.iOS",
-      "projectPath": "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals.iOS\\DailyGoals.iOS.csproj",
-      "packagesPath": "C:\\Users\\csit011\\.nuget\\packages\\",
-      "outputPath": "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals.iOS\\obj\\",
+      "projectPath": "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals.iOS\\DailyGoals.iOS.csproj",
+      "packagesPath": "C:\\Users\\maxsa\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\csit011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maxsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -1073,8 +1073,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj": {
-              "projectPath": "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj"
+            "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj": {
+              "projectPath": "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj"
             }
           }
         }

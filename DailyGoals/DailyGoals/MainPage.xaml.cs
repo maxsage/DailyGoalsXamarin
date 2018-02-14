@@ -11,10 +11,11 @@ using DailyGoals.Droid;
 
 namespace DailyGoals
 {
-	public partial class MainPage : ContentPage
+	public partial class MainPage : CarouselPage
 	{
         private SQLiteAsyncConnection _connection;
         private ObservableCollection<GoalEntry> _goalEntries;
+
 		public MainPage()
 		{
 			InitializeComponent();
@@ -31,7 +32,7 @@ namespace DailyGoals
             var goalEntries = await _connection.Table<GoalEntry>().Where(g => g.Date == DateTime.Now.Date).ToListAsync();
 
             _goalEntries = new ObservableCollection<GoalEntry>(goalEntries);
-            goalEntriesListView.ItemsSource = _goalEntries;
+            //goalEntriesListView.ItemsSource = _goalEntries;
 
             base.OnAppearing();
         }
