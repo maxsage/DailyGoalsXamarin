@@ -11,7 +11,7 @@
 namespace DailyGoals {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

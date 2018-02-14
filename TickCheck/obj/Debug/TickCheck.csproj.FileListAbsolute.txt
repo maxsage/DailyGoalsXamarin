@@ -1,0 +1,7 @@
+c:\Development\DailyGoals\TickCheck\bin\Debug\TickCheck.exe.config
+c:\Development\DailyGoals\TickCheck\bin\Debug\TickCheck.exe
+c:\Development\DailyGoals\TickCheck\bin\Debug\TickCheck.pdb
+c:\Development\DailyGoals\TickCheck\obj\Debug\TickCheck.csprojResolveAssemblyReference.cache
+c:\Development\DailyGoals\TickCheck\obj\Debug\TickCheck.csproj.CoreCompileInputs.cache
+c:\Development\DailyGoals\TickCheck\obj\Debug\TickCheck.exe
+c:\Development\DailyGoals\TickCheck\obj\Debug\TickCheck.pdb

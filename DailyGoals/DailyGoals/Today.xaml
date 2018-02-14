@@ -2,16 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:DailyGoals"
              x:Class="DailyGoals.Today">
+    <!--<ContentPage.Resources>
+        <local:BrushColorConverter x:Key="BConverter"></local:BrushColorConverter>
+    </ContentPage.Resources>-->
     <ContentPage.Content>
         <StackLayout>
             <ContentView Padding="10" BackgroundColor="LightBlue">
                 <Label Text="{Binding CurrentDate, StringFormat='Today - {0}'}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  VerticalOptions="Start" />
             </ContentView>
-            <ListView x:Name="goalEntriesListView" >
+            <ListView x:Name="goalEntriesListView" ItemTapped="goalEntriesListView_ItemTapped" ItemSelected="goalEntriesListView_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding GoalName}" />
+                        <ViewCell>
+                            <Grid BackgroundColor="{Binding GoalColor}}">
+                                <Label Text="{Binding GoalName}" Grid.Column="0"/>
+                                <Label Text="{Binding Details}" Grid.Column="1" />
+                                <!--<Switch IsToggled="{Binding Completed}" Toggled="Completed_Toggled" />-->
+                                <!--<Switch IsToggled="{Binding Completed}" />-->
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

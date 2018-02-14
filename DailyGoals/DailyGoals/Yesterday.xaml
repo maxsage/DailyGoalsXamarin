@@ -7,13 +7,15 @@
     <ContentPage.Content>
         <StackLayout>
             <ContentView Padding="10" BackgroundColor="LightBlue">
-                <Label Text="{Binding CurrentDate, StringFormat='Yesterday - {0}'}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  VerticalOptions="Start" />    
+                <Label Text="{Binding CurrentDate, StringFormat='Yesterday - {0}'}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  VerticalOptions="Start" />
             </ContentView>
-            
+            <ListView x:Name="goalEntriesListView" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding GoalName}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
-        <!--<Label Text="{Binding Source={x:Static sys:DateTime.Now.AddDays(-1)}, Path=DayOfWeek}" 
-                   HorizontalOptions="Center"  
-                   VerticalOptions="FillAndExpand"  />-->
-        <!-- {Binding Source={x:Static sys:DateTime.Now.AddDays(-1)}, Path=DayOfWeek} the-->
     </ContentPage.Content>
 </ContentPage>

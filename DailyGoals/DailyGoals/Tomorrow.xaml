@@ -8,6 +8,13 @@
             <ContentView Padding="10" BackgroundColor="LightBlue">
                 <Label Text="{Binding CurrentDate, StringFormat='Tomorrow - {0}'}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  VerticalOptions="Start" BackgroundColor="LightBlue" />
             </ContentView>
+            <ListView x:Name="goalEntriesListView" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding GoalName}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

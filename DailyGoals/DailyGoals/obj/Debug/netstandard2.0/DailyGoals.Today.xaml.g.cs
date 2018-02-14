@@ -11,7 +11,7 @@
 namespace DailyGoals {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\Today.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\Today.xaml")]
     public partial class Today : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
