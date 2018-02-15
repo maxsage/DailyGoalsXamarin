@@ -14,7 +14,7 @@ namespace DailyGoals
 			InitializeComponent();
 
             // Declared as NavigationPage to get Title to show
-			MainPage = new DailyGoals.MainPage();
+			MainPage = new NavigationPage(new DailyGoals.MainPage());
 		}
 
 		protected override void OnStart ()

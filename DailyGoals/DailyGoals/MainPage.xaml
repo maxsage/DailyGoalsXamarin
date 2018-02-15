@@ -1,28 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DailyGoals"
              x:Class="DailyGoals.MainPage"
              Title="Daily Goals">
-    <local:Yesterday></local:Yesterday>
-    <local:Today></local:Today>
-    <local:Tomorrow></local:Tomorrow>
-    
-    <!--<ContentPage Title="Today">
-        --><!--<StackLayout>
-            <StackLayout>
-                <Button Text="Add" Clicked="OnAdd" />
-                <Button Text="Delete" Clicked="OnDelete" />
-                <Button Text="Update" Clicked="OnUpdate" />
-            </StackLayout>
-            <ListView x:Name="goalEntriesListView" >
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Icon="plus.png" Text="New" Activated="ToolbarItem_Activated" Order="Primary"/>
+        </ContentPage.ToolbarItems>
+        <StackLayout>
+
+            <ContentView Padding="10" BackgroundColor="LightBlue">
+                <Label Text="{Binding CurrentDate, StringFormat='Today - {0}'}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"  VerticalOptions="Start" />
+            </ContentView>
+            <ListView x:Name="goalEntriesListView" ItemTapped="goalEntriesListView_ItemTapped" ItemSelected="goalEntriesListView_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell Text="{Binding Details}" />
+                        <ViewCell>
+                            <Grid BackgroundColor="{Binding GoalColor}}">
+                                <Label Text="{Binding GoalName}" Grid.Column="0"/>
+                                <Label Text="{Binding Details}" Grid.Column="1" />
+                                <!--<Switch IsToggled="{Binding Completed}" Toggled="Completed_Toggled" />
+                                <Switch IsToggled="{Binding Completed}" />-->
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-        </StackLayout>--><!--
-    </ContentPage>-->
-    
-</CarouselPage>
+        </StackLayout>
+</ContentPage>

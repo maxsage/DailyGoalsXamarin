@@ -11,12 +11,16 @@
 namespace DailyGoals {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.CarouselPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\MainPage.xaml")]
+    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView goalEntriesListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            goalEntriesListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "goalEntriesListView");
         }
     }
 }

@@ -28,7 +28,10 @@ c:\Development\DailyGoals\DailyGoals\DailyGoals.Android\obj\Debug\android\assets
 c:\Development\DailyGoals\DailyGoals\DailyGoals.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 c:\Development\DailyGoals\DailyGoals\DailyGoals.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 c:\Development\DailyGoals\DailyGoals\DailyGoals.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-c:\Development\DailyGoals\DailyGoals\DailyGoals.Android\bin\Debug\DailyGoals.Android.dll
+C:\Development\DailyGoals\DailyGoals\DailyGoals.Android\obj\Debug\res\drawable\plus.png
+C:\Development\DailyGoals\DailyGoals\DailyGoals.Android\obj\Debug\res\drawable-hdpi\plus.png
+C:\Development\DailyGoals\DailyGoals\DailyGoals.Android\obj\Debug\res\drawable-xxhdpi\plus.png
+C:\Development\DailyGoals\DailyGoals\DailyGoals.Android\bin\Debug\DailyGoals.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Xamarin.Forms.Core.dll.mdb
 bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
