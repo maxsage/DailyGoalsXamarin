@@ -503,7 +503,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maxsa\\.nuget\\packages\\": {},
+    "C:\\Users\\csit011\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -513,18 +513,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj",
+      "projectUniqueName": "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj",
       "projectName": "DailyGoals",
-      "projectPath": "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj",
-      "packagesPath": "C:\\Users\\maxsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\obj\\",
+      "projectPath": "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\DailyGoals.csproj",
+      "packagesPath": "C:\\Users\\csit011\\.nuget\\packages\\",
+      "outputPath": "c:\\Development\\DailyGoals\\DailyGoals\\DailyGoals\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\maxsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\csit011\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
